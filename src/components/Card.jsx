@@ -104,10 +104,8 @@ function Card() {
                     absolute inset-0 text-white p-4 transition-transform duration-300 ease-in-out flex flex-col justify-center
                     bg-black/80 
                     transform
-                    ${
-                      isToggled ? "translate-x-0" : "translate-x-full"
-                    }  // Slide in if toggled (mobile)
-                    group-hover:translate-x-0                         // Slide in on hover (desktop)
+                    ${isToggled ? "translate-x-0" : "translate-x-full"} 
+                    group-hover:translate-x-0                         
                   `}
                 >
                   <h3 className="text-lg sm:text-xl font-bold lg:text-3xl pb">
