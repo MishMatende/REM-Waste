@@ -59,7 +59,7 @@ function Card() {
   };
 
   return (
-    <div className="bg-black text-white w-full m-0 p-0">
+    <div className="bg-black text-white w-full m-0 p-0 min-w-full">
       {/* Header */}
       <div className="text-center p-4">
         <h1 className="font-bold text-4xl sm:text-2xl">
